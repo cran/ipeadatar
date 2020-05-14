@@ -8,8 +8,8 @@
 # ------------------------------------------------------------------ #
 # ------------------------------------------------------------------ #
 # |   R package for Ipeadata API database                          | #
-# |   Version: 0.0.1                                               | #
-# |   January 14, 2019                                             | #
+# |   Version: 0.1.1                                               | #
+# |   May 05, 2020                                                 | #
 # ------------------------------------------------------------------ #
 
 # Available series ------------------------------------------------
@@ -40,7 +40,7 @@
 #'
 #' @export
 #'
-#' @importFrom magrittr %<>%
+#' @importFrom magrittr %<>% %>%
 
 available_series <- function(language = c("en", "br")) {
 
@@ -206,13 +206,15 @@ available_subjects <- function(language = c("en", "br")) {
 #' English (\code{"en"}, default) and Brazilian portuguese (\code{"br"}).
 #'
 #' @return A data frame containing ISO 3 code and name of available countries.
-#'
+#' 
 #' @examples
+#' \donttest{
 #' # Available countries (in English)
 #' all_countries <- available_countries()
-#'
+#' 
 #' # Available countries (in Brazilian portuguese)
 #' all_countriesBR <- available_countries(language = "br")
+#' }
 #'
 #' @export
 
@@ -829,9 +831,9 @@ search_series <- function(terms = NULL, fields = c('name'), language = c("en", "
         users_search %<>% 
           dplyr::bind_rows(users_search, 
                            all_series %>% 
-                           dplyr::filter_(~ grepl(pattern = terms[j], x = get(fields[i])))) %>%
+                             dplyr::filter_(~ stringr::str_detect(string = get(fields[i]), pattern = terms[j]))) %>%
           dplyr::distinct()
-        
+
       }
       
     }
