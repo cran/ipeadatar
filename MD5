@@ -1,10 +1,10 @@
-7e5198896f6d8da485d21b19bf7ff973 *DESCRIPTION
+4f3f1354c271e05c70ea01844be8ee08 *DESCRIPTION
 0bfe000148f50965a9bfa7d868499632 *LICENSE
 e6d026f606fd091b277bfeeaee10f846 *NAMESPACE
-388efd0a1714002fc2cc09010f746ced *R/ipeadata_pkg.R
+74eddee6211dc13ccdb132418b4cdc61 *R/ipeadata_pkg.R
 e66c26ef623a86e90ba047fc02a58e8a *man/available_countries.Rd
 5919da515eea3a272fde4921058b5340 *man/available_series.Rd
-7a5aae92a26375e72eeb3950e3f218be *man/available_subjects.Rd
+d83b0da32fc16bd2dda49b298232fc7f *man/available_subjects.Rd
 f204483b5082d48d38894e2002c7fe59 *man/available_territories.Rd
 8a3a45de5281ad8887219bc62e69bead *man/ipeadata.Rd
 a6cc80405e8cfa15c3e86fc59c5a82eb *man/metadata.Rd

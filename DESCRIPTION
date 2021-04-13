@@ -1,7 +1,7 @@
 Package: ipeadatar
 Type: Package
 Title: API Wrapper for 'Ipeadata'
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(
     person("Luiz Eduardo S.","Gomes", role=c("aut","cre"), email="gomes.leduardo@gmail.com"),
     person("Jessyka A. P.","Goltara", role=c("ctb"), email="jessykagoltara@gmail.com")
@@ -17,13 +17,13 @@ Description: Allows direct access to the macroeconomic,
 Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
-URL: http://github.com/gomesleduardo/ipeadatar
-BugReports: http://github.com/gomesleduardo/ipeadatar/issues
-Imports: curl, stringr, jsonlite, magrittr, dplyr, lubridate, purrr,
+URL: https://github.com/gomesleduardo/ipeadatar
+BugReports: https://github.com/gomesleduardo/ipeadatar/issues
+Imports: stringr, curl, jsonlite, magrittr, dplyr, lubridate, purrr,
         sjlabelled
-LazyData: true
-RoxygenNote: 7.1.0
+LazyData: false
+RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2020-05-14 19:57:10 UTC; Eduardo
+Packaged: 2021-04-13 13:15:13 UTC; Eduardo
 Repository: CRAN
-Date/Publication: 2020-05-14 20:20:02 UTC
+Date/Publication: 2021-04-13 13:30:02 UTC
