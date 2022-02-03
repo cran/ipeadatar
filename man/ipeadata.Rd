@@ -10,7 +10,7 @@ ipeadata(code, language = c("en", "br"), quiet = FALSE)
 \item{code}{A character vector with Ipeadata code.}
 
 \item{language}{String specifying the selected language. Language options are
-English (\code{"en"}, default) and Brazilian portuguese (\code{"br"}).}
+English (\code{"en"}, default) and Brazilian Portuguese (\code{"br"}).}
 
 \item{quiet}{Logical. If \code{FALSE} (default), a progress bar is shown.}
 }
@@ -25,9 +25,11 @@ Returns a list with available database about the requested series.
 The Ipeadata codes may be required by \code{available_series()}.
 }
 \examples{
+\dontrun{
 # Data from
-# "PRECOS12_IPCA12": Extended National Consumer Price Index (IPCA), Brazil
-dataBR <- ipeadata(code = "PRECOS12_IPCA12", language = "br")
+# "PAN_RRPE": Average real income from effective main work, Brazil
+data <- ipeadata(code = "PAN_RRPE", language = "br")
+}
 
 }
 \references{
