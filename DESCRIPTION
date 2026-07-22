@@ -1,7 +1,7 @@
 Package: ipeadatar
 Type: Package
 Title: API Wrapper for 'Ipeadata'
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: 
     c(
       person(
@@ -41,7 +41,7 @@ VignetteBuilder: knitr
 Config/testthat/edition: 3
 RoxygenNote: 8.0.0
 NeedsCompilation: no
-Packaged: 2026-05-28 12:02:43 UTC; T207056565
+Packaged: 2026-07-22 17:31:54 UTC; T207056565
 Author: Luiz Eduardo Gomes [aut, cre] (ORCID:
     <https://orcid.org/0000-0001-8968-5947>),
   Daniel Herszenhut [ctb] (ORCID:
@@ -49,4 +49,4 @@ Author: Luiz Eduardo Gomes [aut, cre] (ORCID:
   Instituto de Pesquisa Econômica Aplicada (Ipea) [cph, fnd]
 Maintainer: Luiz Eduardo Gomes <luiz.gomes@ipea.gov.br>
 Repository: CRAN
-Date/Publication: 2026-05-28 13:10:02 UTC
+Date/Publication: 2026-07-22 18:00:02 UTC

@@ -9,7 +9,7 @@ knitr::opts_chunk$set(
 # install.packages("ipeadatar")
 
 ## -----------------------------------------------------------------------------
-# pak::pak("gomesleduardo/ipeadatar")
+# pak::pak("ipea/ipeadatar")
 
 ## -----------------------------------------------------------------------------
 # library(ipeadatar)
